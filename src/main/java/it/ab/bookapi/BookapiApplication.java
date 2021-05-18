@@ -8,10 +8,10 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan({"it.sintegra.bookapi.controllers","it.sintegra.bookapi.services",
-		"it.sintegra.bookapi.configs","it.sintegra.bookapi.dal",
-		"it.sintegra.bookapi.exceptions","it.sintegra.bookapi.utilities"})
-@EntityScan({"it.sintegra.bookapi.dal.models"})
+@ComponentScan({"it.ab.bookapi.controllers","it.ab.bookapi.services",
+		"it.ab.bookapi.configs","it.ab.bookapi.dal",
+		"it.ab.bookapi.exceptions","it.ab.bookapi.utilities"})
+@EntityScan({"it.ab.bookapi.dal.models"})
 @SpringBootApplication
 public class BookapiApplication {
 
